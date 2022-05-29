@@ -59,8 +59,8 @@ The {receiver.title().replace('Of','of')}
 {college.title().replace('Of','of')}
 {address.title()}""".splitlines()])
 add_space()
-add_text("Date:"+time.strftime("%d/%m/%Y"), 1)
-add_text(f"Subject:-{subject.capitalize()}", 1)
+add_text("Date : "+time.strftime("%d/%m/%Y"), 1)
+add_text(f"Subject :- {subject.capitalize()}", 1)
 add_text(f"Respected {salutation},", 1)
 add_text(f"""I am a student of {classDetail} at your college.
  This is to inform you that, {reason}.""", 1)
@@ -69,7 +69,7 @@ Kindly grant me the leave for {p.number_to_words(leaveDays)} {p.plural("day",lea
 I shall be really grateful to you.""", 1)
 add_text([f"""Thanking you,
 {name.title()}
-Roll No: {rollNo}""".splitlines()], 1)
+Roll No : {rollNo}""".splitlines()], 1)
 
 # ===========================================================
 
